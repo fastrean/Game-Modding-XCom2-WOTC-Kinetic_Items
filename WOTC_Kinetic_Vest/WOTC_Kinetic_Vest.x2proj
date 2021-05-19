@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>988a6181-b5e8-4870-94a9-802133c296c5</Guid>
+    <Name>WOTC_Kinetic_Vest</Name>
+    <Description>This mod add a new utilit item Kinetic Vest.
+
+Kinetic Vest proivde Kinetic shiled and extra ablilty
+
+tags= Item, Fastrean</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTC_Kinetic_Vest</AssemblyName>
+    <RootNamespace>WOTC_Kinetic_Vest</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WOTC_Kinetic_Vest\" />
+    <Folder Include="Src\WOTC_Kinetic_Vest\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPushUpVestData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticContainmentFieldLV1.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticContainmentFieldLV2.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticContainmentFieldLV3.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticContainmentFieldLV4.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticContainmentFieldLV5.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticDetonationLV1.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticDetonationLV2.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticDetonationLV3.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticDetonationLV4.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticDetonationLV5.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticEruptionLV1.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticEruptionLV2.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticEruptionLV3.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticEruptionLV4.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticEruptionLV5.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticLevitatedLV1.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticLevitatedLV2.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticLevitatedLV3.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticLevitatedLV4.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticLevitatedLV5.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticLevitatedMineDenote.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticRoundsLevitated.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_KineticSnap.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PushUpVest.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_Kinetic_Vest.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Ability_PushUpVest.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Condition_EnergyShieldCheck.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Condition_FirendlyBindCheck.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Condition_SourceHasShieldCheck.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2DownloadableContentInfo_WOTC_Kinetic_Vest.uc" />
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_CostAllEnergyShield.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_KineticLevitationProximityMine.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpKineticRoundsInit.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestKineticContainmentField.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestKineticGeyser.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestKineticImmobilize.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestKineticLevitateBonus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestKineticManipulation.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestKineticProtectionField.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestPersonalKineticShield.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Effect_PushUpVestPushUpCharge.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Helpers_KineticItems.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\X2Item_PushUpItems.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_Kinetic_Vest\Classes\XComGameState_Effect_PushUp.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

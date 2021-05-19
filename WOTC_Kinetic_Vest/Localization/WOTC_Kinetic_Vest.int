@@ -1,0 +1,35 @@
+[X2Helpers_KineticItems]
+StunnedFriendlyName="Push-Up"
+StunnedFriendlyDesc="New Order from communication network, Push-Up!"
+StunnedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is doing Push-Up."
+StunnedEffectTickedString="<XGParam:StrValue0/!UnitName/> is doing Push-Up."
+StunnedEffectLostString="<XGParam:StrValue0/!UnitName/> At Ease."
+StunnedPerActionFriendlyName="Push-Up: <Ability:STUNNEDACTIONPOINTS>"
+
+[X2Ability_PushUpVest]
+StunnedFriendlyName="Lifted"
+StunnedFriendlyDesc="Still alive, but unable to do anything."
+StunnedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is Lifted."
+StunnedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still Lifted."
+StunnedEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer Lifted."
+StunnedPerActionFriendlyName="Lifted: <Ability:STUNNEDACTIONPOINTS>"
+
+[X2Effect_PushUpVestKineticContainmentField]
+ContainmentFieldName="Kinetic Containment Field"
+ContainmentFieldDesc="Kinetic Containment Field imprison a foe in a sphere of Kinetic energy, preventing them from making a move."
+KineticContainmentFieldTickFlyover="Containment Field remaining: <Ability:TurnsRemaining/>"
+KineticContainmentAddedString="<XGParam:StrValue0/!UnitName/> is Paralyzed."
+KineticContainmentPersistsString="<XGParam:StrValue0/!UnitName/> is still Paralyzed."
+KineticContainmentRemovedString="<XGParam:StrValue0/!UnitName/> is no longer Paralyzed."
+KineticContainmentFieldLostFlyover="Breaking Free"
+ParalyzedTitle="Paralyzed"
+
+[X2Effect_PushUpVestKineticImmobilize]
+KineticImmobilizeName="Kinetic Levitation"
+KineticImmobilizeDesc="Kinetic Levitation lifts an enemy into the air, target enemy receiving 1 crushing damage and garantee to hit over the duration of Levitation.\nAt the end of the Levitation, slams the targeted into the ground to crush their armor."
+KineticImmobilizeTickFlyover="Levitation remaining: <Ability:TurnsRemaining/>"
+KineticImmobilizeAddedString="<XGParam:StrValue0/!UnitName/> is lifted."
+KineticImmobilizePersistsString="<XGParam:StrValue0/!UnitName/> is still lifted."
+KineticImmobilizeRemovedString="<XGParam:StrValue0/!UnitName/> is no longer lifted."
+KineticImmobilizeLostFlyover="Kinetic Slam <LostHP/> damage."
+KineticImmobilizeTitle=“Lifted”
