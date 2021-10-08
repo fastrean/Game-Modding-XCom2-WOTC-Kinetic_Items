@@ -9,3 +9,5 @@ Kinetic Levitation Rounds - Lift up target for 1 turn on a success hit.
 Kinetic Levitation Proximity Mine - When activate, Lift up all target within effect range for 1 turn.
 
 Push Up Grenade - Force all Advents units within effect range to do push up for 1 turn.
+
+ENd
